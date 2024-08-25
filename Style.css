@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color: lightcyan
+  }
+  h1{
+    color: black;
+    text-align: center;
+    border: 10px solid cadetblue;
+  }
+  h2.abs{
+    color: darkcyan;
+    border:40px solid thistle;
+  }
+  h2.stat{
+    color: orchid;
+    border:30px solid darkorchid;
+  }
+  div.relative{
+    position: relative;
+    left: 30px;
+    border: 3px solid tan
+  }
+  div.fixed{
+    position: static;
+    left: 30px;
+    border: 3px solid gray
+  }
+  div.absolute{
+    position: absolute;
+    left: 30px;
+    border: 3px solid  violet
+  }
+  div.sticky{
+    position: sticky;
+    left: 30px;
+    border: 3px solid teal
+  }
